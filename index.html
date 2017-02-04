@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=640,user-scalable=no" name="viewport" id="viewport" />
+	<title>Mithril UI</title>
+	<link rel="stylesheet" href="./resource/style/ui.css">
+	<script src="./module/lib/require.min.js"></script>
+	<script src="./module/configPlugin.js"></script>
+    <style>
+        .leftbar a{
+            display: block;
+            margin: 4px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="l leftbar" style="width:16%">
+        <a class="_btn" href="#/">popup</a>
+        <a class="_btn" href="#/comp/dialogtest">dialog</a>
+        <a class="_btn" href="#/comp/selecttest">select</a>
+        <a class="_btn" href="#/comp/linkselecttest">linkselect</a>
+        <a class="_btn" href="#/comp/linkagetest">linkage</a>
+        <a class="_btn" href="#/comp/rangetest">range</a>
+        <a class="_btn" href="#/comp/pagetest">page</a>
+        <a class="_btn" href="#/comp/shiftertest">shifter</a>
+        <a class="_btn" href="#/comp/startest">star</a>
+        <a class="_btn" href="#/comp/tabtest">tab</a>
+        <a class="_btn" href="#/comp/tiptest">tip</a>
+        <a class="_btn" href="#/comp/tabletest">table</a>
+        <a class="_btn" href="#/comp/datetest">date</a>
+    </div>
+	<div class="l" style="width:82%" id="body">
+	</div>
+	<script>
+		require(["plugin"]);
+	</script>
+</body>
+
+</html>
